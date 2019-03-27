@@ -5,9 +5,7 @@ This project creates a backend for a "Contact Us" form. It uses a Gmail account 
 [Run this project on DataFire.io](https://app.datafire.io/projects?baseRepo=https:%2F%2Fgithub.com%2FDataFire-repos%2Fcontact-us-base)
 
 ## Running on DataFire.io
-Go to the **Integrations** tab, and add a new Gmail account. Be sure to select the following scopes:
-* https://www.googleapis.com/auth/gmail.readonly
-* https://www.googleapis.com/auth/gmail.send
+Go to the **Integrations** tab, and add a new Gmail account. Be sure to select the `https://www.googleapis.com/auth/gmail.send` scope.
 
 Then deploy your project to `prod`.
 
